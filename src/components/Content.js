@@ -6,7 +6,7 @@ class Content extends Component{
       return(
         <article>
             <h2>{this.props.title}</h2>
-            {this.props.des}
+            {this.props.desc}
         </article>      
       );
     }
